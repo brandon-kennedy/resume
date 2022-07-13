@@ -1,0 +1,18 @@
+{
+  "history": [
+    {
+      "employer": "Market America World Wide",
+      "title": "Senior UI/UX Engineer",
+      "start": "Nov, 2013",
+      "end": "Present",
+      "description": "Lead a team of developers in charge of building and maintaining user interfaces across 15+ international corporate merchandising sites. Develop and maintain brand consistency. Create comprehensive style guides for other developers to use on a daily basis. Provide functional prototypes of complex pages, components, and interactions.  Ensure code meets our standards of quality and efficiency."
+    },
+    {
+      "employer": "Market America World Wide",
+      "title": "Backend Engineer (Universe)",
+      "start": "Jan, 2012",
+      "end": "Nov, 2013",
+      "description": "Develop and maintain complex data storage solutions for a music based marketing platform. Work directly with front end engineers to ensure fast and accurate data acquisition and display. Some assistance in front end design."
+    }
+  ]
+}

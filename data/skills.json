@@ -1,0 +1,28 @@
+{
+  "skills": [
+    {
+      "label": "HTML/CSS/SCSS",
+      "description": "With 10+ years of experience working with CSS, I consider myself an expert in this particular field. I've spoken about it at multiple conferences and it is still my go-to solution for many things. Over the years I have acquired many tips and tricks that allow me to find clean native solutions to complex problems."
+    },
+    {
+      "label": "JavaScript",
+      "description": "I've been working with JavaScript as long as I've been writing code. Starting primarily with jQuery, yet in the past few years I have migrated to writing everything in vanilla. In addition to manipulating things on the page to create clean, efficient, and elegant interactions for my users, I can also leverage the power of JavaScript frameworks such as Vue.js to build self-contained and reusable components."
+    },
+    {
+      "label": "User Interface / User Experience",
+      "description": "I have a passion for creating intuitive user interfaces that truly bring a site to life and maintain a consistent and pleasant experience for my users. While taking inspiration from current market trends, I understand that it isn't just about how it looks, but how it works as well."
+    },
+    {
+      "label": "UI Frameworks",
+      "description": "I have extensive experience in manipulating and customizing various UI frameworks to generate unique design systems. Utilizing build processes to tear apart the core framework code, modify it, and reassemble only what is needed. Creating a completely custom design system that still has familiar code elements, making it easier for developers to quickly build new components."
+    },
+    {
+      "label": "Data Frameworks",
+      "description": "I regularly work with dynamic data to produce robust components, particularly to handle various legal differences between countries, or to modify the display for different types of users. I primarily handle this on the server side, however I am quite adept at using real-time data to manipulate components in the browser."
+    },
+    {
+      "label": "SVG",
+      "description": "I enjoy hand coding icons and animations in SVG. I find hand coding to be more precise and utlimately results in smaller files. And I can typically generate simple things faster than using an image editor."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+
+{
+  "examples": [
+    {
+      "title": "Demos",
+      "links": [
+        {
+          "label": "Codepen",
+          "href": "https://codepen.io/brandonkennedy"
+        },
+        {
+          "label": "SVG",
+          "href": "https://codepen.io/collection/Nqgdqq"
+        },
+        {
+          "label": "CSS Tricks",
+          "href": "https://codepen.io/collection/AzzaeQ"
+        }
+      ]
+    },
+    {
+      "title": "Recent Work",
+      "links": [
+        {
+           "label": "Motives Cosmetics",
+           "href": "https://www.motivescosmetics.com"
+        },
+        {
+           "label": "Transistions Lifestyle Systems",
+           "href": "https://www.tlsslim.com"
+        },
+        {
+           "label": "Market America World Wide",
+           "href": "https://www.marketamerica.com"
+        }
+      ]
+    }
+  ]
+}

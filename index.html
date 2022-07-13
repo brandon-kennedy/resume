@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Brandon Kennedy</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="images/icons/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicons/favicon-16x16.png">
+  <link rel="manifest" href="images/icons/favicons/site.webmanifest">
+  <link rel="mask-icon" href="images/icons/favicons/safari-pinned-tab.svg" color="#1e90ff">
+  <meta name="msapplication-TileColor" content="#000000">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="styles/index.processed.css"/>
+
+  <script src="https://unpkg.com/vue@2.1.10/dist/vue.js"></script>
+  <script src="https://unpkg.com/http-vue-loader"></script>
+
+</head>
+
+<body>
+  <header class="s-header v-personal-info">
+    <header-info v-bind:item="personal" />
+  </header>
+
+  <main class="s-main">
+    <section class="s-personal v-personal-info">
+      <personal-info v-bind:item="personal" />
+    </section>
+
+    <section class="s-history">
+      <history v-bind:history="history" />
+    </section>
+
+    <section class="s-skills">
+      <skills v-bind:skills="skills" />
+    </section>
+
+    <section class="s-links">
+      <examples v-bind:examples="examples" />
+    </section>
+  </main>
+
+  <footer class="s-footer t-primary">
+    <a href="https://assets.codepen.io/186175/resume--2022.docx">Download Printable Résumé</a>
+  </footer>
+</body>
+
+<script src="js/index.js"></script>
+
+</html>

@@ -1,0 +1,28 @@
+$color-a: #333;
+$color-b: #1e90ff; // blue
+$color-c: #00fa9a; // green
+$color-d: #ff1493; // pink
+$color-e: #ffe14c; // yellow
+
+
+
+$spacing: 1.35rem;
+$spacing-xs: $spacing / 4;
+$spacing-sm: $spacing / 2;
+$spacing-lg: $spacing * 2;
+$spacing-xl: $spacing * 3;
+$spacing-xxl: $spacing * 4;
+
+$spacing-em: 1.35em;
+$spacing-em-xs: $spacing-em / 4;
+$spacing-em-sm: $spacing-em / 2;
+$spacing-em-lg: $spacing-em * 2;
+$spacing-em-xl: $spacing-em * 3;
+$spacing-em-xxl: $spacing-em * 4;
+
+
+$font-size-base: 14px;
+$font-size-md: $font-size-base + 2;
+$font-size-lg: $font-size-base + 4;
+$font-size-lg: $font-size-base + 4;
+$font-size-xl: $font-size-base + 8;

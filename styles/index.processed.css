@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,700;1,200;1,300;1,400;1,500;1,700&family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+*:not(style):not(link):not(meta):not(script) ~ * {
+  margin-top: 1em;
+}
+
+html {
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 992px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 22px;
+  }
+}
+
+body,
+main,
+footer {
+  margin: 0 !important;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  padding: 1.35rem;
+  padding: 1.35rem 2vw;
+}
+@media screen and (min-width: 576px) {
+  main {
+    padding-left: 6vw;
+  }
+}
+@media screen and (min-width: 768px) {
+  main {
+    padding-left: 12vw;
+  }
+}
+
+footer {
+  align-items: center;
+  background: linear-gradient(to bottom, #ff1493 30%, #ad005d);
+  display: flex;
+  justify-content: center;
+  min-height: 4.05rem;
+  padding: 0.675rem 1.35rem;
+}
+footer a {
+  color: #fff;
+  font-size: 14px;
+  text-shadow: none;
+}
+footer a:hover, footer a:focus, footer a:active {
+  text-decoration: underline;
+}
+
+*:not(style):not(link):not(meta):not(script) ~ section {
+  margin-top: 4.05rem;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  color: #00fa9a;
+  color: #000;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  text-shadow: 0 0 2px #fff, 0 0 1px #fff, 0 0 2px #fff;
+  transition: all 0.2s ease-out;
+}
+a:hover, a:focus, a:active {
+  color: #fff;
+  text-shadow: none;
+}
+a:hover:before, a:focus:before, a:active:before {
+  height: 100%;
+  width: calc(100% + 0.675rem);
+}
+a:before {
+  animation: color-fade 60s linear infinite;
+  background: #ff1493;
+  background-image: linear-gradient(-45deg, transparent, #1e90ff);
+  bottom: 0;
+  content: "";
+  height: 0.25rem;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  transition: all 0.2s ease-out;
+  width: 100%;
+  z-index: -1;
+}
+
+ol, ul {
+  margin: 0;
+}
+
+.c-image {
+  display: block;
+  max-width: 100%;
+}
+
+.c-heading span {
+  background: #000;
+  color: #fff;
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 0.3375em 0.675em;
+  text-transform: uppercase;
+}
+.c-heading--sub span {
+  background: none;
+  border: 1px solid #000;
+  color: #000;
+  font-weight: 300;
+}
+
+.c-item + .c-item {
+  margin-top: 2.7rem;
+}
+.c-item__title {
+  color: #000;
+  font-size: 1.5rem;
+  margin: 0;
+}
+.c-item__subtitle {
+  color: #999;
+  font-size: 1rem;
+  margin: 0.5rem 0 0;
+  text-transform: uppercase;
+}
+.c-item__description {
+  color: #666;
+  font-size: 1.15rem;
+  margin: 1rem 0 0;
+}
+
+.c-list {
+  display: flex;
+}
+.c-list--inline {
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0 -0.675rem 0;
+  padding: 0;
+}
+.c-list--inline .c-list__item {
+  display: inline-block;
+  margin: 0.675rem 0 0;
+  padding: 0 0.675rem;
+}
+
+.t-primary {
+  animation: color-fade 60s linear infinite;
+  background: #ff1493;
+  background-image: linear-gradient(-45deg, transparent, #1e90ff);
+  color: #fff;
+}
+
+@keyframes color-fade {
+  0% {
+    background-color: #ff1493;
+  }
+  33.3333% {
+    background-color: #ffe14c;
+  }
+  66.6666% {
+    background-color: #00fa9a;
+  }
+  100% {
+    background-color: #ff1493;
+  }
+}
