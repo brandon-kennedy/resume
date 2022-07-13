@@ -1,6 +1,6 @@
 <template>
   <li class="c-list__item">
-    <a :href="item.href">{{ item.label }}</a>
+    <a :href="item.href" target="_blank">{{ item.label }}</a>
   </li>
 </template>
 
